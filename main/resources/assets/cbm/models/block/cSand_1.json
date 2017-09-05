@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "cbm:blocks/condensedCobble_1"
+		"all": "cbm:blocks/cSand_1"
 	}
 }

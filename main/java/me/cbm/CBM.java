@@ -2,7 +2,6 @@ package me.cbm;
 
 
 import me.cbm.creativetabs.TabCBMBlocks;
-import me.cbm.handlers.RecipeHandler;
 import me.cbm.init.ModBlocks;
 import me.cbm.init.ModItems;
 import me.cbm.proxy.CommonProxy;
@@ -21,7 +20,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class CBM {
 	
-	//public static final CreativeTabs blocks = new TabCBMBlocks();
 	public static final TabCBMBlocks creativeTab = new TabCBMBlocks();
 	
 	@Mod.Instance(Reference.MODID)
@@ -34,18 +32,13 @@ public class CBM {
 	public void preInit(FMLPreInitializationEvent event) {
 		ModItems.init();
 		ModBlocks.init();
-		//ModItems.register();
-		//ModBlocks.register();
 		
 		proxy.registerRenders();
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		
-		//RecipeHandler.registerCraftingRecipes();
-		//RecipeHandler.registerSmeltingRecipes();
-		
+				
 		ModRecipes.init();
 		
 	}

@@ -16,8 +16,7 @@ public class ModItems {
 
 	public static void init() {
 		
-		//x = new ItemBase("x","x");
-		x=register(new ItemBase("x"));
+		//x=register(new ItemBase("x"));
 		
 	}
 	
@@ -31,28 +30,5 @@ public class ModItems {
 		
 		return item;
 	}
-	
-	public static void register() {
-		//registerItem(x);
-	}
-	
-	public static void registerRenders() {
-		//registerRender(x);
 		
-	}
-	
-	public static void registerItem(Item item) {
-		//GameRegistry.register(item);
-		//Utils.getLogger().info("Registered item " + item.getUnlocalizedName().substring(5));
-	}
-	
-	public static void registerRender(Item item) {
-		
-		//ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID, item.getUnlocalizedName().substring(5)),"inventory"));
-		//Utils.getLogger().info("Register render for " + item.getUnlocalizedName().substring(5));
-		
-	}
-	
-	
-	
 }

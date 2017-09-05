@@ -15,8 +15,6 @@ public class ItemBase extends Item {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		
-		//this.setUnlocalizedName(unlocalizedName);		
-		//this.setRegistryName(new ResourceLocation(Reference.MODID, registryName));
 		setCreativeTab(CBM.creativeTab);
 	}
 	

@@ -14,7 +14,7 @@ public class TabCBMBlocks extends CreativeTabs {
 	@Override
 	public Item getTabIconItem() {
 		// TODO Auto-generated method stub
-		return Item.getItemFromBlock(ModBlocks.condensedCobble_1);
+		return Item.getItemFromBlock(ModBlocks.cCobble_1);
 	}
 	
 	@Override
