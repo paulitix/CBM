@@ -164,6 +164,18 @@ public class ModRecipes {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.cArrow_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cArrow_3});
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cArrow_3,9), ModBlocks.cArrow_4);
 		
+		//Ender Pearl - cPearl_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_1), new Object[] {"CCC","CCC","CCC", 'C', Items.ENDER_PEARL});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.ENDER_PEARL,9), ModBlocks.cPearl_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_1,9), ModBlocks.cPearl_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_2,9), ModBlocks.cPearl_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_3,9), ModBlocks.cPearl_4);	
 		
 	}
 	
