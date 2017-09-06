@@ -41,7 +41,18 @@ public class ModBlocks {
 	public static BlockOre cDirt_2;
 	public static BlockOre cDirt_3;
 	public static BlockOre cDirt_4;
-		
+	
+	public static BlockOre cStone_1;
+	public static BlockOre cStone_2;
+	public static BlockOre cStone_3;
+	public static BlockOre cStone_4;
+	
+	public static BlockOre cGlass_1;
+	public static BlockOre cGlass_2;
+	public static BlockOre cGlass_3;
+	public static BlockOre cGlass_4;
+	
+	
 
 	public static void init() {
 				
@@ -60,10 +71,20 @@ public class ModBlocks {
 		cSand_3 = register(new BlockOre("cSand_3"));
 		cSand_4 = register(new BlockOre("cSand_4"));
 		
-		cSand_1 = register(new BlockOre("cDirt_1"));
-		cSand_2 = register(new BlockOre("cDirt_2"));
-		cSand_3 = register(new BlockOre("cDirt_3"));
-		cSand_4 = register(new BlockOre("cDirt_4"));
+		cDirt_1 = register(new BlockOre("cDirt_1"));
+		cDirt_2 = register(new BlockOre("cDirt_2"));
+		cDirt_3 = register(new BlockOre("cDirt_3"));
+		cDirt_4 = register(new BlockOre("cDirt_4"));
+		
+		cStone_1 = register(new BlockOre("cStone_1"));
+		cStone_2 = register(new BlockOre("cStone_2"));
+		cStone_3 = register(new BlockOre("cStone_3"));
+		cStone_4 = register(new BlockOre("cStone_4"));
+		
+		cGlass_1 = register(new BlockOre("cGlass_1"));
+		cGlass_2 = register(new BlockOre("cGlass_2"));
+		cGlass_3 = register(new BlockOre("cGlass_3"));
+		cGlass_4 = register(new BlockOre("cGlass_4"));
 		
 	}
 	
