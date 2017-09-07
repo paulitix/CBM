@@ -82,6 +82,11 @@ public class ModBlocks {
 	public static BlockOre cPearl_3;
 	public static BlockOre cPearl_4;
 	
+	public static BlockOre cReeds_1;
+	public static BlockOre cReeds_2;
+	public static BlockOre cReeds_3;
+	public static BlockOre cReeds_4;
+	
 
 	public static void init() {
 				
@@ -145,6 +150,10 @@ public class ModBlocks {
 		cPearl_3 = register(new BlockOre("cPearl_3"));
 		cPearl_4 = register(new BlockOre("cPearl_4"));
 		
+		cReeds_1 = register(new BlockOre("cReeds_1"));
+		cReeds_2 = register(new BlockOre("cReeds_2"));
+		cReeds_3 = register(new BlockOre("cReeds_3"));
+		cReeds_4 = register(new BlockOre("cReeds_4"));
 	}
 	
 	private static <T extends Block> T register(T block, ItemBlock itemBlock) {

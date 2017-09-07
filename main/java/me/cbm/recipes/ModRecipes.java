@@ -175,7 +175,21 @@ public class ModRecipes {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_2,9), ModBlocks.cPearl_3);
 				
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_3});
-		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_3,9), ModBlocks.cPearl_4);	
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_3,9), ModBlocks.cPearl_4);
+		
+		//Sugar Cane - cReeds_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_1), new Object[] {"CCC","CCC","CCC", 'C', Items.REEDS});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.REEDS,9), ModBlocks.cReeds_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cReeds_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cReeds_1,9), ModBlocks.cReeds_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cReeds_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cReeds_2,9), ModBlocks.cReeds_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cReeds_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cReeds_3,9), ModBlocks.cReeds_4);
+		
 		
 	}
 	
