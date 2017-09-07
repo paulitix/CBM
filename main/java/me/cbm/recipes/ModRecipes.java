@@ -3,6 +3,7 @@ package me.cbm.recipes;
 import me.cbm.init.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -68,9 +69,35 @@ public class ModRecipes {
 				
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.cDirt_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cDirt_3});
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cDirt_3,9), ModBlocks.cDirt_4);
-		
+				
 		//Dirt - Coarse
 		//Dirt - Podzol
+		
+		//Gravel
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cGravel_1), new Object[] {"CCC","CCC","CCC", 'C', Blocks.GRAVEL});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.GRAVEL,9), ModBlocks.cGravel_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cGravel_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cGravel_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cGravel_1,9), ModBlocks.cGravel_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cGravel_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cGravel_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cGravel_2,9), ModBlocks.cGravel_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cGravel_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cGravel_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cGravel_3,9), ModBlocks.cGravel_4);
+		
+		//Obsidian
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cObsidian_1), new Object[] {"CCC","CCC","CCC", 'C', Blocks.OBSIDIAN});
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.OBSIDIAN,9), ModBlocks.cObsidian_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cObsidian_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cObsidian_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cObsidian_1,9), ModBlocks.cObsidian_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cObsidian_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cObsidian_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cObsidian_2,9), ModBlocks.cObsidian_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cObsidian_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cObsidian_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cObsidian_3,9), ModBlocks.cObsidian_4);
 		
 		//Glass
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.cGlass_1), new Object[] {"CCC","CCC","CCC", 'C', Blocks.GLASS});
@@ -97,6 +124,71 @@ public class ModRecipes {
 				
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.cStone_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cStone_3});
 		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cStone_3,9), ModBlocks.cStone_4);
+		
+		//Bone - cBone_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cBone_1), new Object[] {"CCC","CCC","CCC", 'C', Items.BONE});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.BONE,9), ModBlocks.cBone_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cBone_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cBone_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cBone_1,9), ModBlocks.cBone_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cBone_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cBone_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cBone_2,9), ModBlocks.cBone_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cBone_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cBone_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cBone_3,9), ModBlocks.cBone_4);
+		
+		//Rotten Flesh - cRotten_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cRotten_1), new Object[] {"CCC","CCC","CCC", 'C', Items.ROTTEN_FLESH});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.ROTTEN_FLESH,9), ModBlocks.cRotten_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cRotten_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cRotten_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cRotten_1,9), ModBlocks.cRotten_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cRotten_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cRotten_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cRotten_2,9), ModBlocks.cRotten_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cRotten_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cRotten_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cRotten_3,9), ModBlocks.cRotten_4);
+		
+		//Arrow - cArrow_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cArrow_1), new Object[] {"CCC","CCC","CCC", 'C', Items.ARROW});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.ARROW,9), ModBlocks.cArrow_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cArrow_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cArrow_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cArrow_1,9), ModBlocks.cArrow_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cArrow_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cArrow_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cArrow_2,9), ModBlocks.cArrow_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cArrow_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cArrow_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cArrow_3,9), ModBlocks.cArrow_4);
+		
+		//Ender Pearl - cPearl_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_1), new Object[] {"CCC","CCC","CCC", 'C', Items.ENDER_PEARL});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.ENDER_PEARL,9), ModBlocks.cPearl_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_1,9), ModBlocks.cPearl_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_2,9), ModBlocks.cPearl_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cPearl_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cPearl_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cPearl_3,9), ModBlocks.cPearl_4);
+		
+		//Sugar Cane - cReeds_1
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_1), new Object[] {"CCC","CCC","CCC", 'C', Items.REEDS});
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.REEDS,9), ModBlocks.cReeds_1);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_2), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cReeds_1});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cReeds_1,9), ModBlocks.cReeds_2);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_3), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cReeds_2});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cReeds_2,9), ModBlocks.cReeds_3);
+				
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.cReeds_4), new Object[] {"CCC","CCC","CCC", 'C', ModBlocks.cReeds_3});
+		GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.cReeds_3,9), ModBlocks.cReeds_4);
 		
 		
 	}

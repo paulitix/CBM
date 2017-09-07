@@ -47,11 +47,45 @@ public class ModBlocks {
 	public static BlockOre cStone_3;
 	public static BlockOre cStone_4;
 	
+	public static BlockOre cObsidian_1;
+	public static BlockOre cObsidian_2;
+	public static BlockOre cObsidian_3;
+	public static BlockOre cObsidian_4;
+	
+	public static BlockOre cGravel_1;
+	public static BlockOre cGravel_2;
+	public static BlockOre cGravel_3;
+	public static BlockOre cGravel_4;
+	
 	public static BlockOre cGlass_1;
 	public static BlockOre cGlass_2;
 	public static BlockOre cGlass_3;
 	public static BlockOre cGlass_4;
 	
+	public static BlockOre cBone_1;
+	public static BlockOre cBone_2;
+	public static BlockOre cBone_3;
+	public static BlockOre cBone_4;
+	
+	public static BlockOre cRotten_1;
+	public static BlockOre cRotten_2;
+	public static BlockOre cRotten_3;
+	public static BlockOre cRotten_4;
+	
+	public static BlockOre cArrow_1;
+	public static BlockOre cArrow_2;
+	public static BlockOre cArrow_3;
+	public static BlockOre cArrow_4;
+	
+	public static BlockOre cPearl_1;
+	public static BlockOre cPearl_2;
+	public static BlockOre cPearl_3;
+	public static BlockOre cPearl_4;
+	
+	public static BlockOre cReeds_1;
+	public static BlockOre cReeds_2;
+	public static BlockOre cReeds_3;
+	public static BlockOre cReeds_4;
 	
 
 	public static void init() {
@@ -81,11 +115,45 @@ public class ModBlocks {
 		cStone_3 = register(new BlockOre("cStone_3"));
 		cStone_4 = register(new BlockOre("cStone_4"));
 		
+		cObsidian_1 = register(new BlockOre("cObsidian_1"));
+		cObsidian_2 = register(new BlockOre("cObsidian_2"));
+		cObsidian_3 = register(new BlockOre("cObsidian_3"));
+		cObsidian_4 = register(new BlockOre("cObsidian_4"));
+		
+		cGravel_1 = register(new BlockOre("cGravel_1"));
+		cGravel_2 = register(new BlockOre("cGravel_2"));
+		cGravel_3 = register(new BlockOre("cGravel_3"));
+		cGravel_4 = register(new BlockOre("cGravel_4"));
+		
 		cGlass_1 = register(new BlockOre("cGlass_1"));
 		cGlass_2 = register(new BlockOre("cGlass_2"));
 		cGlass_3 = register(new BlockOre("cGlass_3"));
 		cGlass_4 = register(new BlockOre("cGlass_4"));
 		
+		cBone_1 = register(new BlockOre("cBone_1"));
+		cBone_2 = register(new BlockOre("cBone_2"));
+		cBone_3 = register(new BlockOre("cBone_3"));
+		cBone_4 = register(new BlockOre("cBone_4"));
+		
+		cRotten_1 = register(new BlockOre("cRotten_1"));
+		cRotten_2 = register(new BlockOre("cRotten_2"));
+		cRotten_3 = register(new BlockOre("cRotten_3"));
+		cRotten_4 = register(new BlockOre("cRotten_4"));
+		
+		cArrow_1 = register(new BlockOre("cArrow_1"));
+		cArrow_2 = register(new BlockOre("cArrow_2"));
+		cArrow_3 = register(new BlockOre("cArrow_3"));
+		cArrow_4 = register(new BlockOre("cArrow_4"));
+		
+		cPearl_1 = register(new BlockOre("cPearl_1"));
+		cPearl_2 = register(new BlockOre("cPearl_2"));
+		cPearl_3 = register(new BlockOre("cPearl_3"));
+		cPearl_4 = register(new BlockOre("cPearl_4"));
+		
+		cReeds_1 = register(new BlockOre("cReeds_1"));
+		cReeds_2 = register(new BlockOre("cReeds_2"));
+		cReeds_3 = register(new BlockOre("cReeds_3"));
+		cReeds_4 = register(new BlockOre("cReeds_4"));
 	}
 	
 	private static <T extends Block> T register(T block, ItemBlock itemBlock) {
